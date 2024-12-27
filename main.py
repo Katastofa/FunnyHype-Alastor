@@ -25,7 +25,8 @@ def main(page):
             page.add(history_content(page))
         elif selected_index == 3:
             page.add(settings_content(page))
-
+        
+        
     # Устанавливаем обработчик для навигационной панели
     page.navigation_bar.on_change = lambda e: show_page(e.control.selected_index)
 

@@ -3,8 +3,8 @@ import flet as ft
 def history_content(page):
     return ft.Column(
         controls=[
-            ft.Text("Это главная страница", size=24),
-            ft.Text("Добро пожаловать в приложение!", size=16),
+            ft.Text("3", size=24),
+            ft.Text("Д3", size=16),
             ft.Image(src="https://via.placeholder.com/300", width=300, height=200),
         ],
         alignment=ft.MainAxisAlignment.START,
